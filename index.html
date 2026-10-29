@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV page</title>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/logo.png" alt="my logo" class="avatar">
+        <h1 class="header_title">Danylo Chetverikov | CV</h1>
+        <h2 class="header_subtitle">Frontend Developer</h2>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+                <details>
+                    <summary>Skills list:</summary>
+
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>TypeScript</li>
+                    </ol>
+                </details>
+        </section>
+
+        <article class="article">
+            <h4>Short article about me</h4>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iure, explicabo ipsam dolorem ut nihil et quas maxime ullam quos necessitatibus at, suscipit quia, eaque rem quidem. Rerum, ullam. Recusandae, ex dicta odit nisi odio dolor iste doloribus, eveniet commodi architecto cum totam nam eligendi corporis placeat ab, ducimus sapiente?</p>
+        </article>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250x250" alt="placehold img">
+            <img src="https://placehold.co/250x250" alt="placehold img">
+            <img src="https://placehold.co/250x250" alt="placehold img">
+        </section>
+
+        <hr class="separator">
+
+        <section class="video">
+            <iframe  src="https://www.youtube.com/embed/N-Fa1tm3oz0?list=PLV9lBwGQ2FU1VOctyWifetyMMC-OTJ51e" title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h4>My hobbies:</h4>
+
+            <details>
+                <summary>Hobbies</summary>
+                    <ol>
+                        <li>Computer games</li>
+                        <li>Piano</li>
+                        <li>Books</li>
+                    </ol>
+            </details>
+        </section>
+
+        <hr class="separator">
+
+        <section class="ed">
+            <table class="ed_table">
+                <thead>
+                    <tr>
+                        <th>School / University</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>IT school 1</td>
+                        <td>HTML Dev</td>
+                        <td>2026</td>
+                    </tr>
+                    <tr>
+                        <td>IT school 2</td>
+                        <td>CSS Dev</td>
+                        <td>2026</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                To be or not to be?...
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="https://google.com" method="get" class="form" target="_blank">
+                <fieldset>
+                    <legend>Required fields: </legend>
+
+                    <div>
+                        <label for="firstName-id">First Name: </label>
+                        <input type="text" name="firstName" id="firstName-id" required>
+                    </div>
+    
+                    <div>
+                        <label for="lastName-id">Last Name: </label>
+                        <input type="text" name="lastName" id="lastName-id" required>
+                    </div>
+    
+                    <div>
+                        <label for="email-id">Email: </label>
+                        <input type="email" name="email" id="email-id" required>
+                    </div>
+                </fieldset>
+
+                <br>
+                <textarea name="questions" cols="30" rows="7"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <br>
+
+    </main>
+
+    <footer>
+        <address>
+            <br>
+            <a href="mailto:it@gmail.com">it@gmail.com</a>
+            <br><br>
+            <a href="tel:+90123456789">+90123456789</a>
+        </address>
+    </footer>
+</body>    
+</html>
